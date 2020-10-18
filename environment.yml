@@ -1,0 +1,35 @@
+name: cellpy
+channels:
+  - defaults
+  - conda-forge
+  - pyviz
+dependencies:
+  - python>=3.8
+  - pip
+  - numpy
+  - xlrd
+  - matplotlib
+  - cryptography
+  - click
+  - scipy
+  - pandas>=1.0
+  - pytables
+  - setuptools
+  - ruamel.yaml
+  - pyodbc
+  - PyGithub
+  - cookiecutter
+  - tqdm
+  - ipython
+  - ipywidgets
+  - lmfit
+  - ipykernel
+  - holoviz
+  - hdf5
+  - pytables>=3.6.1
+  - python-box
+  - pytest
+  - invoke
+  - jupyter
+  - jupyterlab
+
