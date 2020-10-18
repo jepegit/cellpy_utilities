@@ -10,8 +10,8 @@ jobs:
       matrix:
         os: [ubuntu-latest]
     steps:
-    - run: echo "{myconda}={$CONDA/bin/conda}" >> $GITHUB_ENV
-    - run: echo "{pytest}={$CONDA/bin/pytest}" >> $GITHUB_ENV
+    - run: echo "myconda=$CONDA/bin/conda" >> $GITHUB_ENV
+    - run: echo "pytest=$CONDA/bin/pytest" >> $GITHUB_ENV
     - run: echo $myconda
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
