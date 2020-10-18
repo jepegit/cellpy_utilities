@@ -32,4 +32,6 @@ dependencies:
   - invoke
   - jupyter
   - jupyterlab
+  - pip:
+      - cellpy
 
