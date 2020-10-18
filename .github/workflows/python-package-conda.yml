@@ -3,7 +3,7 @@ name: Python Package using Conda
 on: [push]
 
 jobs:
-  build-linux:
+  build:
     runs-on: ${{ matrix.os }}
     strategy:
       max-parallel: 5
@@ -12,6 +12,7 @@ jobs:
     steps:
     - run: echo "myconda=$CONDA/bin/conda" >> $GITHUB_ENV
     - run: echo "pytest=$CONDA/bin/pytest" >> $GITHUB_ENV
+    - run: echo "cellpy=$CONDA/bin/cellpy" >> $GITHUB_ENV
     - run: echo $myconda
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
@@ -28,8 +29,8 @@ jobs:
         $pytest
     - name: Test cellpy
       run: |
-        $myconda info -v
-        $myconda info -l
-        $myconda info -p
-        $myconda info -c
+        $cellpy info -v
+        $cellpy info -l
+        $cellpy info -p
+        $cellpy info -c
       
