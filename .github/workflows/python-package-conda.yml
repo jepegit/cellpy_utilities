@@ -8,7 +8,7 @@ jobs:
     strategy:
       max-parallel: 5
       matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+        os: [ubuntu-latest]
     steps:
     - run: echo "myconda=$CONDA/bin/conda" >> $GITHUB_ENV
     - run: echo "pytest=$CONDA/bin/pytest" >> $GITHUB_ENV
