@@ -4,10 +4,11 @@ on: [push]
 
 jobs:
   build-linux:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     strategy:
       max-parallel: 5
-
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
@@ -31,5 +32,8 @@ jobs:
         $CONDA/bin/pytest
     - name: Test cellpy
       run: |
-        $CONDA/bin/cellpy info
+        $CONDA/bin/cellpy info -v
+        $CONDA/bin/cellpy info -l
+        $CONDA/bin/cellpy info -p
+        $CONDA/bin/cellpy info -c
       
