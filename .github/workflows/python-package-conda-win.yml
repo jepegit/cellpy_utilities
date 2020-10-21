@@ -10,28 +10,7 @@ jobs:
       matrix:
         os: [windows-latest]
     steps:
-    - run: echo "myconda=$CONDA/bin/conda" >> $GITHUB_ENV
-    - run: echo "pytest=$CONDA/bin/pytest" >> $GITHUB_ENV
-    - run: echo "cellpy=$CONDA/bin/cellpy" >> $GITHUB_ENV
-    - run: echo $myconda
+    - run: echo $CONDA
     - run: dir
-    - uses: actions/checkout@v2
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
-    - name: Install dependencies
-      run: |
-        # $CONDA is an environment variable pointing to the root of the miniconda directory
-        $myconda env update --file environment.yml --name base
-    - name: Test with pytest
-      run: |
-        $myconda install pytest
-        $pytest
-    - name: Test cellpy
-      run: |
-        $cellpy info -v
-        $cellpy info -l
-        $cellpy info -p
-        $cellpy info -c
+
       
