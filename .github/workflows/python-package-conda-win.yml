@@ -10,9 +10,11 @@ jobs:
       matrix:
         os: [windows-latest]
     steps:
-    - run: echo $CONDA
-    - run: dir
-    - run: set
+    - run: |
+        echo $CONDA
+        dir
+        set
+      shell: cmd
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
