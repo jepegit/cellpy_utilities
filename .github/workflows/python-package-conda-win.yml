@@ -24,5 +24,6 @@ jobs:
       run: |
         # $CONDA is an environment variable pointing to the root of the miniconda directory
         %CONDA% env update --file environment.yml --name base
+      shell: cmd
 
       
