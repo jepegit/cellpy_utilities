@@ -11,7 +11,7 @@ jobs:
         os: [windows-latest]
     steps:
     - run: |
-        echo $CONDA
+        echo %CONDA%
         dir
         set
       shell: cmd
@@ -23,6 +23,6 @@ jobs:
     - name: Install dependencies
       run: |
         # $CONDA is an environment variable pointing to the root of the miniconda directory
-        conda env update --file environment.yml --name base
+        %CONDA% env update --file environment.yml --name base
 
       
