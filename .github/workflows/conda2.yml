@@ -15,6 +15,7 @@ jobs:
         run: |
           conda info
           conda list
+          conda env update --file environment.yml --name base
       - name: PowerShell Core
         shell: pwsh
         run: |
@@ -58,11 +59,13 @@ jobs:
         run: |
           conda info
           conda list
+          conda env update --file environment.yml --name base
       - name: PowerShell
         shell: powershell
         run: |
           conda info
           conda list
+          conda env update --file environment.yml --name base
       - name: PowerShell Core
         shell: pwsh
         run: |
