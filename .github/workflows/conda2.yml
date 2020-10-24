@@ -1,5 +1,6 @@
-on: push
-
+name: conda2
+on:
+  workflow_dispatch:
 jobs:
   example-2-linux:
     name: Ex2 Linux
