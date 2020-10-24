@@ -9,13 +9,13 @@ jobs:
       - uses: conda-incubator/setup-miniconda@v1
         with:
           miniconda-version: "latest"
-          activate-environment: foo
+          activate-environment: base
       - name: Bash
         shell: bash -l {0}
         run: |
           conda info
           conda list
-          conda env update --file environment.yml --name base
+          conda env install --file environment.yml --name base
       - name: PowerShell Core
         shell: pwsh
         run: |
@@ -53,19 +53,19 @@ jobs:
       - uses: conda-incubator/setup-miniconda@v1
         with:
           miniconda-version: "latest"
-          activate-environment: foo
+          activate-environment: base
       - name: Bash
         shell: bash -l {0}
         run: |
           conda info
           conda list
-          conda env update --file environment.yml --name base
+          conda env install --file environment.yml --name base
       - name: PowerShell
         shell: powershell
         run: |
           conda info
           conda list
-          conda env update --file environment.yml --name base
+          conda env install --file environment.yml --name base
       - name: PowerShell Core
         shell: pwsh
         run: |
