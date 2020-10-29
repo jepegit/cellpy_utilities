@@ -10,6 +10,7 @@ jobs:
         with:
           miniconda-version: "latest"
           activate-environment: base
+          auto-activate-base: True
       - name: Bash
         shell: bash -l {0}
         run: |
