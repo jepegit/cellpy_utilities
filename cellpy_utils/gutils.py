@@ -5,5 +5,5 @@ print("cellpy utilities")
 
 def double(a):
 
-    return np.asarray(a)
+    return np.asarray(a) * 2
 
