@@ -9,71 +9,15 @@ jobs:
       - uses: conda-incubator/setup-miniconda@v1
         with:
           miniconda-version: "latest"
-          activate-environment: base
-          auto-activate-base: True
+          activate-environment: cellpy
       - name: Bash
         shell: bash -l {0}
         run: |
           conda info
           conda list
-          conda env install --file environment.yml --name base
+          conda env install --file environment.yml
       - name: PowerShell Core
         shell: pwsh
         run: |
           conda info
-          conda list
-
-  example-2-mac:
-    name: Ex2 Mac
-    runs-on: "macos-latest"
-    steps:
-      - uses: conda-incubator/setup-miniconda@v1
-        with:
-          miniconda-version: "latest"
-          activate-environment: foo
-      - name: Sh
-        shell: sh -l {0}
-        run: |
-          conda info
-          conda list
-      - name: Bash
-        shell: bash -l {0}
-        run: |
-          conda info
-          conda list
-      - name: PowerShell Core
-        shell: pwsh
-        run: |
-          conda info
-          conda list
-
-  example-2-win:
-    name: Ex2 Windows
-    runs-on: "windows-latest"
-    steps:
-      - uses: conda-incubator/setup-miniconda@v1
-        with:
-          miniconda-version: "latest"
-          activate-environment: base
-      - name: Bash
-        shell: bash -l {0}
-        run: |
-          conda info
-          conda list
-          conda env install --file environment.yml --name base
-      - name: PowerShell
-        shell: powershell
-        run: |
-          conda info
-          conda list
-          conda env install --file environment.yml --name base
-      - name: PowerShell Core
-        shell: pwsh
-        run: |
-          conda info
-          conda list
-      - name: Cmd.exe
-        shell: cmd /C CALL {0}
-        run: >-
-          conda info &&
           conda list
