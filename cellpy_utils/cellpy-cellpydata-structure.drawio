@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T17:20:05.900Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="a6uNajRApXjJ25Y9ptZR" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T17:26:34.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="ZOgSYohpOyk5KME6BDgZ" version="14.4.4" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="4013" dy="2351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#F1FAEE" math="0" shadow="1">
       <root>
@@ -173,7 +173,7 @@
           <mxGeometry x="70" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="M6c7fhZQipC6nJDo4fWO-41" value="" style="group;fontColor=#1D3557;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="420" y="425" width="250" height="340" as="geometry" />
+          <mxGeometry x="420" y="425" width="250" height="366" as="geometry" />
         </mxCell>
         <mxCell id="M6c7fhZQipC6nJDo4fWO-7" value="Cell" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="M6c7fhZQipC6nJDo4fWO-41" vertex="1">
           <mxGeometry width="250" height="220" as="geometry">
@@ -233,6 +233,9 @@
         </mxCell>
         <mxCell id="q-QKjQK1S_09aKGMdCLz-221" value="meta (cell)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="q-QKjQK1S_09aKGMdCLz-219">
           <mxGeometry x="70" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-503" value="" style="shape=mxgraph.signs.animals.seal;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="M6c7fhZQipC6nJDo4fWO-41">
+          <mxGeometry x="114" y="274" width="100" height="92" as="geometry" />
         </mxCell>
         <mxCell id="M6c7fhZQipC6nJDo4fWO-189" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="252" y="432" width="68" height="176" as="geometry" />
@@ -849,7 +852,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="q-QKjQK1S_09aKGMdCLz-480" value="Cellpy March 2021" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;fontStyle=1;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry y="-450" width="330" height="20" as="geometry" />
+          <mxGeometry x="-10" y="-460" width="330" height="20" as="geometry" />
         </mxCell>
         <mxCell id="q-QKjQK1S_09aKGMdCLz-418" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;rounded=0;sketch=0;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1250" y="102" width="340" height="830" as="geometry" />
@@ -976,6 +979,69 @@
         </mxCell>
         <mxCell id="q-QKjQK1S_09aKGMdCLz-476" value="" style="shape=partialRectangle;connectable=0;fillColor=#ffcc99;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;strokeColor=#36393d;" vertex="1" parent="q-QKjQK1S_09aKGMdCLz-474">
           <mxGeometry x="30" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-483" value="" style="shape=mxgraph.signs.transportation.forklift;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-433.5" width="98" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-484" value="" style="shape=mxgraph.signs.tech.computer;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-400" width="40" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-485" value="" style="shape=mxgraph.signs.transportation.bicycle_4;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-406" width="99" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-488" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.431;entryY=0.747;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#FF3333;strokeWidth=2;fillColor=#A8DADC;fontSize=35;fontColor=#1D3557;" edge="1" parent="1" source="q-QKjQK1S_09aKGMdCLz-486" target="q-QKjQK1S_09aKGMdCLz-487">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-486" value="" style="shape=mxgraph.signs.sports.archery;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="345" y="-433.5" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-487" value="" style="shape=mxgraph.signs.sports.baseball;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="306" y="-435" width="58" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-489" value="" style="shape=mxgraph.signs.sports.snow_shoeing;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="103" y="-420" width="57" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-490" value="" style="shape=mxgraph.signs.food.bar;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-406" width="30" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-491" value="" style="shape=mxgraph.signs.food.restaurant_2;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-400" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-492" value="" style="shape=mxgraph.signs.safety.no_smoking;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="260" y="830" width="244.47" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-493" value="" style="shape=mxgraph.signs.healthcare.anesthesia;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="536" y="987" width="98" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-494" value="" style="shape=mxgraph.signs.healthcare.dermatology;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="670" y="976" width="99" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-495" value="" style="shape=mxgraph.signs.healthcare.first_aid;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="800" y="974" width="98" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-496" value="" style="shape=mxgraph.signs.healthcare.care_staff_area;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="951" y="974" width="97" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-497" value="" style="shape=mxgraph.signs.healthcare.heart_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="978" width="103" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-498" value="" style="shape=mxgraph.signs.healthcare.wheelchair_accessible_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="973" width="87" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-499" value="" style="shape=mxgraph.signs.food.drinking_water_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="974" width="84" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-500" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="1504" y="997" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-501" value="" style="shape=mxgraph.signs.animals.teddy_bear;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="275" y="696" width="69" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-502" value="" style="shape=mxgraph.signs.animals.fish_hatchery;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="380" y="697" width="97" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="q-QKjQK1S_09aKGMdCLz-504" value="" style="shape=mxgraph.signs.travel.baggage;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;rounded=0;dashed=1;sketch=0;fontSize=35;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="540" y="848" width="98" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
