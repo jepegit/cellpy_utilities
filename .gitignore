@@ -1,3 +1,9 @@
 .idea
 .pytest_cache
 tests/.pytest_cache
+dev_data/
+#*/.ipynb_checkpoints
+.ipynb_checkpoints
+#/dev_utils/parameters_batch/.ipynb_checkpoints
+#/dev_utils/parameters_batch/.ipynb_checkpoints/cellpy_batch_double-checkpoint.json
+#/dev_utils/parameters_batch/.ipynb_checkpoints/transfering_parameters-checkpoint.ipynb
