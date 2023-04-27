@@ -3,3 +3,4 @@
 tests/.pytest_cache
 dev_data/
 .ipynb_checkpoints
+/cellpy_utils/tmp/20220106_marte_04_cc_01.h5
